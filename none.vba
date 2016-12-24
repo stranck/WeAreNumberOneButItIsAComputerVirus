@@ -1,6 +1,6 @@
 Private Sub Accept_Click()
     '***
-    'If you wanna run me, you need to manually inserit the source code that you can find here:
+    'If you wanna run me, you need to manually inserit the source code that you can find here: https://github.com/stranck/WeAreNumberOneButItIsAComputerVirus/blob/master/macro.vba
     MsgBox ("Code needed! View macro page for more information.")
 End Sub
 
