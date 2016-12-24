@@ -59,6 +59,10 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   
   
 #Note
+After you have executed robr.vbs you need to wait for a while: it's downloading from mediafire the virus data (about 300MB)
+
+Kill the virus will bsod your computer.
+
 C++ code taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
 
 
