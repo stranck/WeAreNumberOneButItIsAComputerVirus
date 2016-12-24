@@ -14,44 +14,45 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
 
     At startup: 
     
-       Open a .txt with some text
+       - Open a .txt with some text
        
-       Play "who did you expect? Sportaflop?" at very high volume
+       - Play "who did you expect? Sportaflop?" at very high volume
        
-       add ".robbierotten" to the extension of your files
+       - add ".robbierotten" to the extension of your files
        
     Randomly:
     
-      Open a we are number meme
+      - Open a we are number meme
       
-      Write "robbie rotten" on your keyboard
+      - Write "robbie rotten" on your keyboard
       
-      Copy some phrases in your clipboard
+      - Copy some phrases in your clipboard
       
-      Draw random Robbie Rotten face on your screen (After a while that the virus startupped)
+      - Draw random Robbie Rotten face on your screen (After a while that the virus startupped)
       
-      Draw another Robbie Rotten face on your cursor (After a while that the virus startupped)
+      - Draw another Robbie Rotten face on your cursor (After a while that the virus startupped)
       
     Every five minutes:
-      A we are number one meme but every 5 minutes more distorted (Only 4 lever of distortion)
+    
+      - A we are number one meme but every 5 minutes more distorted (Only 4 lever of distortion)
       
     At 22:00:
     
-      Open we are number one in live on facebook
+      - Open we are number one in live on facebook
       
     At 22:16:
     
-      Open we are number one, but played in live
+      - Open we are number one, but played in live
   
   12 of every month:
   
     At startup:
       
-      Open a .txt with some text
+      - Open a .txt with some text
       
-      Play "uh? FREE!" at very high volume
+      - Play "uh? FREE!" at very high volume
       
-      remove ".robbierotten" extension to your files.
+      - remove ".robbierotten" extension to your files.
       
 #.jar Arguments
   a: remove ".robbierotten" extension to your files.
@@ -66,7 +67,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   
   
 #Note
-C++ code taken and modified from memz virus: https://github.com/Leurak/MEMZ
+C++ code taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
 
 
 
