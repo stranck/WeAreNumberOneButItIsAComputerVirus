@@ -15,21 +15,15 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
     At startup: 
     
        - Open a .txt with some text
-       
        - Play "who did you expect? Sportaflop?" at very high volume
-       
        - add ".robbierotten" to the extension of your files
        
     Randomly:
     
       - Open a we are number meme
-      
       - Write "robbie rotten" on your keyboard
-      
       - Copy some phrases in your clipboard
-      
       - Draw random Robbie Rotten face on your screen (After a while that the virus startupped)
-      
       - Draw another Robbie Rotten face on your cursor (After a while that the virus startupped)
       
     Every five minutes:
@@ -49,9 +43,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
     At startup:
       
       - Open a .txt with some text
-      
       - Play "uh? FREE!" at very high volume
-      
       - remove ".robbierotten" extension to your files.
       
 #.jar Arguments
