@@ -55,13 +55,17 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       
 #.jar Arguments
   a: remove ".robbierotten" extension to your files.
+  
   b: add ".robbierotten" extension to your files.
-  c: Only random sound payload without checking the date
+  
+  c: Only random sound payload without checking the date.
+  
   d: Only video sound payload without checking the date
+  .
   e: wait [ms | check if the time is really passed]
   
   
-  
+#Note
 C++ code taken and modified from memz virus: https://github.com/Leurak/MEMZ
 
 
