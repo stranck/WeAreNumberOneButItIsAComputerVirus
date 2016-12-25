@@ -14,7 +14,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
 
     At startup: 
     
-       - Open a .txt with some text
+       - Open a .txt with some text
        - Play "who did you expect? Sportaflop?" at very high volume
        - add ".robbierotten" to the extension of your files
        
@@ -28,7 +28,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       
     Every five minutes:
     
-      - A we are number one meme but every 5 minutes more distorted (Only 4 lever of distortion)
+      - A we are number one meme but every 5 minutes more distorted (Only 4 level of distortion)
       
     At 22:00:
     
@@ -53,8 +53,8 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   
   c: Only random sound payload without checking the date.
   
-  d: Only video sound payload without checking the date
-  .
+  d: Only video sound payload without checking the date.
+  
   e: wait [ms | check if the time is really passed]
   
   
