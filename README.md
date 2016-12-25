@@ -15,9 +15,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
     At startup: 
     
        - Open a .txt with some text
-       
-       - Play "who did you expect? Sportaflop?" at very high volume
-       
+       - Play "who did you expect? Sportaflop?" at very high volume
        - add ".robbierotten" to the extension of your files
        
     Randomly:
