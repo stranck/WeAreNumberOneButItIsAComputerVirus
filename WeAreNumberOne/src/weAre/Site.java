@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Site implements Runnable{
     public void run() {
-    	while(true){
+    	while(NumberOne.running){
     		if(NumberOne.r.nextBoolean()){
     			try {
     				int i = NumberOne.r.nextInt(NumberOne.meme.length);

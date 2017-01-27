@@ -3,7 +3,7 @@ package weAre;
 public class RandomSound implements Runnable{
     public void run() {
     	int i = NumberOne.r.nextInt(60000) + 30000;
-    	while(true){
+    	while(NumberOne.running){
     		if(NumberOne.r.nextInt(5) > 1){
     			String s = String.valueOf(NumberOne.r.nextInt(22) + 1) + ".wav";
     			System.out.println("RSOUND: listening at " + s);

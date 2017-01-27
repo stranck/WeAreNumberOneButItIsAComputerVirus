@@ -6,7 +6,7 @@ public class Video implements Runnable{
     public void run() {
     	int i = 1;
     	//System.out.print("VIDEO: Opening level " + i);
-    	while(true){
+    	while(NumberOne.running){
         	System.out.println("VIDEO: Opening level " + i);
     		try {
 				NumberOne.exe("start AWeAreNumberOneMemeButEvery5MinutsMoreDistorted[Level" + i + "].mp4");

