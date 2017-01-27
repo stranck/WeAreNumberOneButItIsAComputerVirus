@@ -2,7 +2,9 @@
 cd C:\Users\"%username%"\Documents\party\
 java -jar nf.jar test.temp
 if exist test.temp goto :1
-exit
+:stop
+pause
+goto :stop
 :1
 @del test.temp
 echo test

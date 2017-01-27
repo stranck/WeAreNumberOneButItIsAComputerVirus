@@ -2,9 +2,8 @@
 #include<windows.h>
 #include<time.h>
 #include<stdlib.h>
-#include <windows.h>
-#include <tchar.h>
-#include <strsafe.h>
+#include<tchar.h>
+#include<strsafe.h>
 
 //This code is taken and modified from memz virus: https://github.com/Leurak/MEMZ
 
