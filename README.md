@@ -17,6 +17,8 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
        - Open a .txt with some text
        - Play "who did you expect? Sportaflop?" at very high volume
        - add ".robbierotten" to the extension of your files
+       - set http://nowlookatthis.net/ as default homepage in internet explorer and firefox
+       - Play original we are number one, but at every one a random payload start
        
     Randomly:
     
@@ -25,9 +27,12 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       - Copy some phrases in your clipboard
       - Draw random Robbie Rotten face on your screen (After a while that the virus startupped)
       - Draw another Robbie Rotten face on your cursor (After a while that the virus startupped)
-      
-    Every five minutes:
-    
+      - Play a random Lazy Town sound
+      - Sportacock.exe stopped working
+      - Pixel start hacking your pc (open a green cmd windows that run a random command)
+      - Change your desktop every 0.25"
+      - Print with your printer rr.god
+      - Change all windows text to robbie rotten
       - A we are number one meme but every 5 minutes more distorted (Only 4 level of distortion)
       
     At 22:00:
@@ -57,13 +62,19 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   
   e: wait [ms | check if the time is really passed]
   
+  f: Start all the random payload without doing nothing else
+  
+  g: Start the payload that print rr.god with your printer
+  
+  h: Open selected payload [1 - 12]
+  
   
 #Note
 After you have executed robr.vbs you need to wait for a while: it's downloading from mediafire the virus data (about 300MB)
 
 Kill the virus will bsod your computer.
 
-C++ code taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
+C++ code (Except for desktop change payload) taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
 
 
 
