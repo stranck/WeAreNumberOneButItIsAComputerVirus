@@ -75,7 +75,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
  
  2: Delet this: `C:\Users\<your username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs`
  
- 3: Delet (also) this: `C:\Users\<your username\Documents\party\`
+ 3: Delet (also) this: `C:\Users\<your username>\Documents\party\`
  
 
 #Vidos
