@@ -73,7 +73,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
 
 #Vidos
 
- - V1.0
+ - [V1.0](https://youtu.be/KMyjSC6UMIg)
  - [V2.1](https://youtu.be/uItXIawwf8k)
  
  
