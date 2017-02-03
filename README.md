@@ -69,13 +69,22 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   h: Open selected payload [1 - 12]
   
   
+ 
+
+#Vidos
+
+ - V1.0
+ - V2.0
+ 
+ 
 #Note
 After you have executed robr.vbs you need to wait for a while: it's downloading from mediafire the virus data (about 300MB)
 
 Kill the virus will bsod your computer.
 
-C++ code (Except for desktop change payload) taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
+C++ code (Except for desktop change and "stopped working" payloads) taken and modified from [memz virus](https://github.com/Leurak/MEMZ)
 
+Post on dannoct's forum:https://danooct1.com/forum/viewtopic.php?f=12&t=1261
 
 
 
