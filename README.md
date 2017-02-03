@@ -72,7 +72,9 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
 #Fix
 
  1: Kill in order: wscript.exe, cmd.exe, java.exe/javaw.exe
+ 
  2: Delet this: C:\Users\<your username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs
+ 
  3: Delet (also) this: C:\Users\"%username%"\Documents\party\
  
 
