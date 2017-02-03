@@ -52,30 +52,30 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       - remove ".robbierotten" extension to your files.
       
 #.jar Arguments
-  a: remove ".robbierotten" extension to your files.
+  `a`: remove ".robbierotten" extension to your files.
   
-  b: add ".robbierotten" extension to your files.
+  `b`: add ".robbierotten" extension to your files.
   
-  c: Only random sound payload without checking the date.
+  `c`: Only random sound payload without checking the date.
   
-  d: Only video sound payload without checking the date
+  `d`: Only video sound payload without checking the date
   
-  e: wait [ms | check if the time is really passed]
+  `e`: wait [ms | check if the time is really passed]
   
-  f: Start all the random payload without doing nothing else
+  `f`: Start all the random payload without doing nothing else
   
-  g: Start the payload that print rr.god with your printer
+  `g`: Start the payload that print rr.god with your printer
   
-  h: Open selected payload [1 - 12]
+  `h`: Open selected payload [1 - 12]
   
   
 #Fix
 
  1: Kill in order: wscript.exe, cmd.exe, java.exe/javaw.exe
  
- 2: Delet this: C:\Users\<your username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs
+ 2: Delet this: `C:\Users\<your username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs`
  
- 3: Delet (also) this: C:\Users\"%username%"\Documents\party\
+ 3: Delet (also) this: `C:\Users\"%username%"\Documents\party\`
  
 
 #Vidos
