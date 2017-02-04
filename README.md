@@ -78,7 +78,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
  3: Delet (also) this: `C:\Users\<your username>\Documents\party\`
  
 
-#Vidos
+#Videos
 
  - [V1.0](https://youtu.be/KMyjSC6UMIg)
  - [V2.1](https://youtu.be/uItXIawwf8k)
