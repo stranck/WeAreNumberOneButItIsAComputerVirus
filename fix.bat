@@ -7,8 +7,8 @@ taskkill /IM wscript.exe /F
 taskkill /IM cmd.exe /FI "WINDOWTITLE ne Fix"
 taskkill /IM java.exe /F
 taskkill /IM javaw.exe /F
-::delate the startup file
 
+::delate the startup file
 @del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs"
 
 ::remove .robbierotten to your file name
