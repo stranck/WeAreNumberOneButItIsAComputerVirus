@@ -68,15 +68,6 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   
   `h`: Open selected payload [1 - 12]
   
-  
-#Fix
-
- 1: Kill in order: `wscript.exe`, `cmd.exe`, `java.exe`/`javaw.exe`
- 
- 2: Delet this: `C:\Users\<your username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs`
- 
- 3: Delet (also) this: `C:\Users\<your username>\Documents\party\`
- 
 
 #Videos
 
@@ -85,6 +76,9 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
  
  
 #Note
+
+Download and launch [fix.bat](https://github.com/stranck/WeAreNumberOneButItIsAComputerVirus/blob/master/fix.bat) for repair your computer from this virus.
+
 After you have executed robr.vbs you need to wait for a while: it's downloading from mediafire the virus data (about 100MB)
 
 Kill the virus will bsod your computer.
