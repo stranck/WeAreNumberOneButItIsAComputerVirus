@@ -12,7 +12,7 @@ taskkill /IM javaw.exe /F
 @del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\windowsupdate.vbs"
 
 ::remove .robbierotten to your file name
-timeout 3 > null
+timeout 3 > nul
 java -jar "C:\Users\%username%\Documents\party\wano.jar" a
 
 ::delete the virus data
