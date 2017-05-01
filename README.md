@@ -8,7 +8,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
 
 
 
-#Payloads
+## Payloads
 
   11 of every month:
 
@@ -51,7 +51,7 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       - Play "uh? FREE!" at very high volume
       - remove ".robbierotten" extension to your files.
       
-#.jar Arguments
+## .jar Arguments
   `a`: remove ".robbierotten" extension to your files.
   
   `b`: add ".robbierotten" extension to your files.
@@ -69,13 +69,13 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
   `h`: Open selected payload [1 - 12]
   
 
-#Videos
+## Videos
 
  - [V1.0](https://youtu.be/KMyjSC6UMIg)
  - [V2.1](https://youtu.be/uItXIawwf8k)
  
  
-#Note
+## Note
 
 Download and launch [fix.bat](https://github.com/stranck/WeAreNumberOneButItIsAComputerVirus/blob/master/fix.bat) for repair your computer from this virus.
 
