@@ -51,6 +51,10 @@ This virus is "harmfull": it don't touch your data except that it will add a ".r
       - Play "uh? FREE!" at very high volume
       - remove ".robbierotten" extension to your files.
       
+## Installation
+
+Copy the contnent of [robr.vsb](https://github.com/stranck/WeAreNumberOneButItIsAComputerVirus/blob/master/robr.vbs) in a .vbs file and then run it. Wait some time, it's downloading the whole virus from [here](https://raw.githubusercontent.com/stranck/WeAreNumberOneButItIsAComputerVirus/master/online/dwn). After the download, it will exctract all the files to `C:\Users\%username%\Documents\party\`, a popup could appear saying that it's copying some data. Don't interrupt it. When the popup it's gone, the virus is installed. At this point you can reboot your computer for execute it. NOTE: all the payloads will run only on the 11th of every month. 
+
 ## .jar Arguments
   `a`: remove ".robbierotten" extension to your files.
   
